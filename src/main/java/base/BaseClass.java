@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeTest;
 
 import java.io.FileInputStream;
@@ -14,9 +15,18 @@ public class BaseClass {
 
     public static Properties prop;
 
-    public static WebDriver driver;
+    //public static WebDriver driver;
 
     public static FileInputStream fis;
+
+    public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
+
+    public static WebDriver getDriver()
+    {
+        //Get Driver from thread localmap
+        return driver.get();
+    }
+
 
 
     @BeforeTest
@@ -35,14 +45,18 @@ public class BaseClass {
 
         if (browserName.contains("chrome"))
         {
-            driver = new ChromeDriver();
+            //driver = new ChromeDriver();
+            //Changes for threads
+            driver.set(new ChromeDriver());
         }
         else if (browserName.equals("firefox"))
         {
-            driver = new FirefoxDriver();
+            //driver = new FirefoxDriver();
+            //Changes for threads
+            driver.set(new FirefoxDriver());
         }
-        driver.manage().window().maximize();
-        driver.get(prop.getProperty("url"));
+        getDriver().manage().window().maximize();
+        getDriver().get(prop.getProperty("url"));
 
     }
 

@@ -14,18 +14,18 @@ By imageLoginPage = By.cssSelector("#root > div > div.login_wrapper > div.login_
 
     public boolean validateLogo()
     {
-       return Action.isDisplayed(driver,imageLoginPage);
+       return Action.isDisplayed(getDriver(),imageLoginPage);
     }
 
     public String getMyStoreTitle()
     {
-        String myStoreTitle = driver.getTitle();
+        String myStoreTitle = getDriver().getTitle();
         return myStoreTitle;
     }
 
     public String getLoginPageUrl()
     {
-        String currentLoginPageUrl = driver.getCurrentUrl();
+        String currentLoginPageUrl = getDriver().getCurrentUrl();
         return currentLoginPageUrl;
     }
 
@@ -33,7 +33,7 @@ By imageLoginPage = By.cssSelector("#root > div > div.login_wrapper > div.login_
     {
         Action.type(userName, uname);
         Action.type(userPassword, pswd);
-        Action.click(driver, loginButton);
+        Action.click(getDriver(), loginButton);
         return new ProductsListPage();
 
 

@@ -35,7 +35,7 @@ public class Action extends BaseClass {
     public static boolean findElement(WebDriver driver, By ele) {
         boolean flag = false;
         try {
-            driver.findElement(ele).isDisplayed();
+            getDriver().findElement(ele).isDisplayed();
             flag = true;
         } catch (Exception e) {
             // System.out.println("Location not found: "+locatorName);
@@ -68,9 +68,9 @@ public class Action extends BaseClass {
     public static boolean type(By ele, String text) {
         boolean flag = false;
         try {
-            flag = driver.findElement(ele).isDisplayed();
-            driver.findElement(ele).clear();
-            driver.findElement(ele).sendKeys(text);
+            flag = getDriver().findElement(ele).isDisplayed();
+            getDriver().findElement(ele).clear();
+            getDriver().findElement(ele).sendKeys(text);
             // logger.info("Entered text :"+text);
             flag = true;
         } catch (Exception e) {

@@ -17,23 +17,23 @@ public class ProductsListPage extends BaseClass {
 
     public String getCurUrl()
     {
-        return driver.getCurrentUrl();
+        return getDriver().getCurrentUrl();
     }
 
     public void logout() throws InterruptedException {
-        Action.click(driver, sideBarMenu);
-        Action.implicitWait(driver, 2);
-        Action.click(driver, logoutBtn);
+        Action.click(getDriver(), sideBarMenu);
+        Action.implicitWait(getDriver(), 2);
+        Action.click(BaseClass.getDriver(), logoutBtn);
     }
 
     public void addToCart()
     {
-        Action.click(driver, addCart);
+        Action.click(BaseClass.getDriver(), addCart);
     }
 
     public ProductProfilePage goToProductProfile()
     {
-        Action.click(driver,product);
+        Action.click(BaseClass.getDriver(),product);
         return new ProductProfilePage();
 
     }

@@ -18,6 +18,6 @@ public class ProductProfilePage extends BaseClass {
         productsListPage = new ProductsListPage();
         productsListPage = loginPage.login(prop.getProperty("username"),prop.getProperty("password"));
         productsListPage.goToProductProfile();
-        Action.click(driver, addTCartProductPage);
+        Action.click(getDriver(), addTCartProductPage);
     }
 }

@@ -21,7 +21,7 @@ public class LoginPageTest extends BaseClass {
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+        getDriver().quit();
     }
 
     @Test
@@ -41,7 +41,7 @@ public class LoginPageTest extends BaseClass {
     }
 
     @Test
-    public void LoginPageTest()
+    public void LoginTest()
     {
         loginPage = new LoginPage();
         productsListPage = new ProductsListPage();

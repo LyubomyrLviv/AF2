@@ -17,7 +17,7 @@ public class ProductListPageTest extends BaseClass {
     @BeforeMethod
     public void setup() {lauchBrowser();}
     @AfterMethod
-    public void tearDown() {driver.quit();}
+    public void tearDown() {getDriver().quit();}
 
 
     @Test
