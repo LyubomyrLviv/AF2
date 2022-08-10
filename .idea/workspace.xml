@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7008de8a-fb3b-4797-90b9-b8c956d8637c" name="Changes" comment="1-st commit set up POM">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ProductsListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testclases/LoginPageTest.java" afterDir="false" />
+    <list default="true" id="7008de8a-fb3b-4797-90b9-b8c956d8637c" name="Changes" comment="rewrote from PF to POM &#10;In this commit finished LoginPageTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ProductProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testclases/ProductListPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actions/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/ProductsListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ProductsListPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="D:\Java\TestProjects\AF2\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTest.LoginPageTest">
+  <component name="RunManager" selected="TestNG.ProductListPageTest.addToCart">
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AF2" />
       <extension name="coverage">
@@ -87,24 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.verifyLogo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AF2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testclases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testclases" />
-      <option name="MAIN_CLASS_NAME" value="testclases.LoginPageTest" />
-      <option name="METHOD_NAME" value="verifyLogo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginPageTest.verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AF2" />
       <extension name="coverage">
@@ -123,12 +104,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductListPageTest.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AF2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testclases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testclases" />
+      <option name="MAIN_CLASS_NAME" value="testclases.ProductListPageTest" />
+      <option name="METHOD_NAME" value="addToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductListPageTest.logOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AF2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testclases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testclases" />
+      <option name="MAIN_CLASS_NAME" value="testclases.ProductListPageTest" />
+      <option name="METHOD_NAME" value="logOutTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ProductListPageTest.addToCart" />
+        <item itemvalue="TestNG.ProductListPageTest.logOutTest" />
         <item itemvalue="TestNG.LoginPageTest.LoginPageTest" />
         <item itemvalue="TestNG.LoginPageTest.verifyTitle" />
         <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="TestNG.LoginPageTest.verifyLogo" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659599536215</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rewrote from PF to POM &#10;In this commit finished LoginPageTest">
+      <created>1660112337266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660112337266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +196,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1-st commit set up POM" />
-    <option name="LAST_COMMIT_MESSAGE" value="1-st commit set up POM" />
+    <MESSAGE value="rewrote from PF to POM &#10;In this commit finished LoginPageTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewrote from PF to POM &#10;In this commit finished LoginPageTest" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 package pageobjects;
 
+import actions.Action;
 import base.BaseClass;
 import org.openqa.selenium.By;
 
@@ -18,6 +19,26 @@ public class ProductsListPage extends BaseClass {
     {
         return driver.getCurrentUrl();
     }
+
+    public void logout() throws InterruptedException {
+        Action.click(driver, sideBarMenu);
+        Action.implicitWait(driver, 2);
+        Action.click(driver, logoutBtn);
+    }
+
+    public void addToCart()
+    {
+        Action.click(driver, addCart);
+    }
+
+    public ProductProfilePage goToProductProfile()
+    {
+        Action.click(driver,product);
+        return new ProductProfilePage();
+
+    }
+
+
 
 
 

@@ -87,6 +87,10 @@ public class Action extends BaseClass {
         return flag;
     }
 
+    public static void implicitWait(WebDriver driver, int timeOut) {
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+
 
 
     }
