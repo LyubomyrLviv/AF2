@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7008de8a-fb3b-4797-90b9-b8c956d8637c" name="Changes" comment="1-st commit set up POM">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configurations/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ProductsListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testclases/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +38,99 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/Utopia&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\TestProjects\AF2\src\test\java" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginPageTest.LoginPageTest">
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AF2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testclases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testclases" />
+      <option name="MAIN_CLASS_NAME" value="testclases.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AF2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testclases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testclases" />
+      <option name="MAIN_CLASS_NAME" value="testclases.LoginPageTest" />
+      <option name="METHOD_NAME" value="LoginPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.verifyLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AF2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testclases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testclases" />
+      <option name="MAIN_CLASS_NAME" value="testclases.LoginPageTest" />
+      <option name="METHOD_NAME" value="verifyLogo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AF2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testclases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testclases" />
+      <option name="MAIN_CLASS_NAME" value="testclases.LoginPageTest" />
+      <option name="METHOD_NAME" value="verifyTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginPageTest.LoginPageTest" />
+        <item itemvalue="TestNG.LoginPageTest.verifyTitle" />
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.LoginPageTest.verifyLogo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

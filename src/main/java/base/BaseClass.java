@@ -23,7 +23,7 @@ public class BaseClass {
     public void loadConfig() throws IOException
     {
         prop = new Properties();
-        fis = new FileInputStream(System.getProperty("user.dir")+"configurations/config.properties");
+        fis = new FileInputStream(System.getProperty("user.dir")+"/configurations/config.properties");
         prop.load(fis);
     }
 
