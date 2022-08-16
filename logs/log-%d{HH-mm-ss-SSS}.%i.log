@@ -1,0 +1,4 @@
+21:38:30.108 [main] DEBUG utility.Log - Hello from Log4j 2
+21:38:30.113 [main] DEBUG utility.Log - 5
+21:51:33.565 [main] INFO  utility.Log - logg some information
+22:09:15.374 [main] INFO  utility.Log - logg some information

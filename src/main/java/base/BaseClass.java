@@ -21,6 +21,8 @@ public class BaseClass {
 
     public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 
+
+
     public static WebDriver getDriver()
     {
         //Get Driver from thread localmap
