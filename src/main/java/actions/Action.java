@@ -3,29 +3,17 @@ package actions;
 import base.BaseClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import java.io.File;
-import java.text.SimpleDateFormat;
+
 import java.time.Duration;
-import java.util.Date;
-import java.util.List;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.Alert;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Action extends BaseClass {
+
+    public static WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
 
     public static void click(WebDriver driver, By ele)
     {
@@ -89,6 +77,10 @@ public class Action extends BaseClass {
 
     public static void implicitWait(WebDriver driver, int timeOut) {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+
+    public WebElement waitVisibility(By by) {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
     }
 
 

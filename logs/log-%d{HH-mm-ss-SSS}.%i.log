@@ -1,4 +1,2 @@
-21:38:30.108 [main] DEBUG utility.Log - Hello from Log4j 2
-21:38:30.113 [main] DEBUG utility.Log - 5
-21:51:33.565 [main] INFO  utility.Log - logg some information
-22:09:15.374 [main] INFO  utility.Log - logg some information
+13:35:04.849 [main] INFO  testclases.LoginPageTest - Title verification test
+13:35:04.872 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

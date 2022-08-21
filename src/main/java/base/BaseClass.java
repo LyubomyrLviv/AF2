@@ -5,7 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import utility.Log;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -22,7 +24,6 @@ public class BaseClass {
     public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 
 
-
     public static WebDriver getDriver()
     {
         //Get Driver from thread localmap
@@ -34,6 +35,7 @@ public class BaseClass {
     @BeforeTest
     public void loadConfig() throws IOException
     {
+
         prop = new Properties();
         fis = new FileInputStream(System.getProperty("user.dir")+"/configurations/config.properties");
         prop.load(fis);
@@ -42,6 +44,7 @@ public class BaseClass {
 
     public void lauchBrowser()
     {
+
         WebDriverManager.chromedriver().setup();
         String browserName = prop.getProperty("browser");
 
