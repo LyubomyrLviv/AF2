@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Java/TestProjects/AF2">
+        <classes>
+            <class name="testclases.LoginPageTest">
+                <methods>
+                    <include name="verifyLogo"/>
+                    <include name="verifyTitleTest"/>
+                    <include name="LoginTest"/>
+                </methods>
+            </class>
+            <class name="testclases.ProductListPageTest">
+                <methods>
+                    <include name="logOutTest"/>
+                    <include name="addToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

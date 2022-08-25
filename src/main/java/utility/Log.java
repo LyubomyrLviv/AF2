@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Log {
 
-    public static final Logger logger = LogManager.getLogger(Log.class);
+//    public static final Logger logger = LogManager.getLogger(Log.class);
 
     //Info Level Logs
 //    public static void info(String message) {
@@ -37,4 +37,4 @@ public class Log {
 //        }
 
 
-    }
+}

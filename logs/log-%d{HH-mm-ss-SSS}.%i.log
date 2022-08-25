@@ -1,2 +1,0 @@
-13:35:04.849 [main] INFO  testclases.LoginPageTest - Title verification test
-13:35:04.872 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
