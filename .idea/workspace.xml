@@ -4,99 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7008de8a-fb3b-4797-90b9-b8c956d8637c" name="Changes" comment="rewrote from PF to POM &#10;The Log4j2 find out 30% how to work with it">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ReadXLSdata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testData/testData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testrunner/testng.xml" afterDir="false" />
+    <list default="true" id="7008de8a-fb3b-4797-90b9-b8c956d8637c" name="Changes" comment="rewrote from PF to POM &#10;Finished with xlsx data reader">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testrunner/testng_regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testrunner/testng_smoke.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-%d{HH-mm-ss-SSS}.%i.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-53-34-796.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-53-34-796.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-53-34-796.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-53-34-796.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-53-34-796.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-53-34-796.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-53-34-796.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-58-21-280.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-58-21-280.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-58-21-280.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-58-21-280.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-58-21-280.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-58-21-280.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-58-21-280.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-59-36-551.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-59-36-551.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-59-36-551.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-59-36-551.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-59-36-551.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-59-36-551.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-09-59-36-551.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-19-18-254.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-19-18-254.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-19-18-254.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-19-18-254.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-19-18-254.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-19-18-254.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-19-18-254.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-21-42-996.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-21-42-996.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-21-42-996.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-21-42-996.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-21-42-996.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-21-42-996.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-21-42-996.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-23-37-380.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-23-37-380.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-23-37-380.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-23-37-380.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-23-37-380.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-23-37-380.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-23-37-380.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-24-55-779.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-24-55-779.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-24-55-779.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-24-55-779.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-24-55-779.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-24-55-779.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-24-55-779.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-29-00-977.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-29-00-977.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-29-00-977.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-29-00-977.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-29-00-977.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-29-00-977.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-11-29-00-977.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-27-43-061.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-27-43-061.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-27-43-061.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-27-43-061.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-27-43-061.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-27-43-061.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-27-43-061.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-32-08-384.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-32-08-384.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-32-08-384.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-32-08-384.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-32-08-384.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-32-08-384.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-32-08-384.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-33-49-528.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-33-49-528.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-33-49-528.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-33-49-528.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-33-49-528.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-33-49-528.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-13-33-49-528.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-21-38-29-989.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-21-38-29-989.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-21-38-29-989.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-21-38-29-989.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-21-38-29-989.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-21-38-29-989.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log-21-38-29-989.7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/ReadXLSdata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/ReadXLSdata.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testclases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testclases/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testclases/ProductListPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testclases/ProductListPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testrunner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/testng_all.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +57,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/TestProjects/Loger project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/TestProjects/AF2/testrunner&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -148,6 +65,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\TestProjects\AF2\testrunner" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\TestProjects\AF2\testrunner" />
       <recent name="D:\Java\TestProjects\AF2\src\main" />
@@ -156,21 +76,38 @@
       <recent name="D:\JavaProjects\AutomationFrameworkPOM\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTest.loginTest">
-    <configuration name="ReadXLSdata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utility.ReadXLSdata" />
+  <component name="RunManager" selected="TestNG.D:/Java/TestProjects/AF2/testrunner/testng_smoke.xml">
+    <configuration name="D:/Java/TestProjects/AF2/testrunner/testng_regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AF2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testrunner/testng_regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Java/TestProjects/AF2/testrunner/testng_smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AF2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testrunner/testng_smoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Java/TestProjects/AF2/testrunner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AF2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testrunner/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AF2" />
       <extension name="coverage">
         <pattern>
@@ -180,8 +117,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testclases" />
       <option name="MAIN_CLASS_NAME" value="testclases.LoginPageTest" />
-      <option name="METHOD_NAME" value="LoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -206,49 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.verifyLogo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AF2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testclases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testclases" />
-      <option name="MAIN_CLASS_NAME" value="testclases.LoginPageTest" />
-      <option name="METHOD_NAME" value="verifyLogo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest.verifyTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AF2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testclases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testclases" />
-      <option name="MAIN_CLASS_NAME" value="testclases.LoginPageTest" />
-      <option name="METHOD_NAME" value="verifyTitleTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Java/TestProjects/AF2/testrunner/testng_smoke.xml" />
+        <item itemvalue="TestNG.D:/Java/TestProjects/AF2/testrunner/testng_regression.xml" />
+        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.LoginPageTest.loginTest" />
-        <item itemvalue="Application.ReadXLSdata" />
-        <item itemvalue="TestNG.LoginPageTest.verifyTitleTest" />
-        <item itemvalue="TestNG.LoginPageTest.LoginTest" />
-        <item itemvalue="TestNG.LoginPageTest.verifyLogo" />
+        <item itemvalue="TestNG.D:/Java/TestProjects/AF2/testrunner/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661107098981</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="rewrote from PF to POM &#10;Finished with xlsx data reader">
+      <created>1661457786412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661457786412</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,6 +239,7 @@
     <MESSAGE value="rewrote from PF to POM &#10;Changes to implement threads" />
     <MESSAGE value="rewrote from PF to POM &#10;The Log4j2 set up (done) now need try to implement it" />
     <MESSAGE value="rewrote from PF to POM &#10;The Log4j2 find out 30% how to work with it" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewrote from PF to POM &#10;The Log4j2 find out 30% how to work with it" />
+    <MESSAGE value="rewrote from PF to POM &#10;Finished with xlsx data reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewrote from PF to POM &#10;Finished with xlsx data reader" />
   </component>
 </project>

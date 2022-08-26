@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test verbose="2" preserve-order="true" name="Regression">
+        <parameter name="browser" value="chrome"></parameter>
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testclases.LoginPageTest">
+                <methods>
+
+                </methods>
+            </class>
+            <class name="testclases.ProductListPageTest">
+                <methods>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

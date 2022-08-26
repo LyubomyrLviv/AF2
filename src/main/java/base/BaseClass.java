@@ -7,6 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import utility.Log;
 
 import java.io.FileInputStream;
@@ -32,7 +33,7 @@ public class BaseClass {
 
 
 
-    @BeforeTest
+    @BeforeTest(groups = {"Smoke","Regression"})
     public void loadConfig() throws IOException
     {
 
@@ -40,13 +41,13 @@ public class BaseClass {
         fis = new FileInputStream(System.getProperty("user.dir")+"/configurations/config.properties");
         prop.load(fis);
     }
+    //Parameters was added in scope of multi browser testing
 
-
-    public void lauchBrowser()
+    public void lauchBrowser(String browserName)
     {
 
         WebDriverManager.chromedriver().setup();
-        String browserName = prop.getProperty("browser");
+//        String browserName = prop.getProperty("browser");
 
         if (browserName.contains("chrome"))
         {

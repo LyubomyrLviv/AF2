@@ -14,7 +14,7 @@ public class ReadXLSdata {
     @DataProvider(name = "loginData")
     public Object[][] getData(Method m) throws IOException
     {
-        String excelSheetName = m.getName();
+        String excelSheetName = m.getName();;
         System.out.println(excelSheetName);
         File f = new File(System.getProperty("user.dir")+"/src/test/resources/testData/testData.xlsx");
         FileInputStream fis = new FileInputStream(f);
