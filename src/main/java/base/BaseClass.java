@@ -47,6 +47,7 @@ public class BaseClass {
     {
 
         WebDriverManager.chromedriver().setup();
+        WebDriverManager.firefoxdriver().setup();
 //        String browserName = prop.getProperty("browser");
 
         if (browserName.contains("chrome"))

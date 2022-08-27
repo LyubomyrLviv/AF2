@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7008de8a-fb3b-4797-90b9-b8c956d8637c" name="Changes" comment="rewrote from PF to POM &#10;Finished with xlsx data reader">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testrunner/testng_regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testrunner/testng_smoke.xml" afterDir="false" />
+    <list default="true" id="7008de8a-fb3b-4797-90b9-b8c956d8637c" name="Changes" comment="rewrote from PF to POM &#10;Finished with testng xml set up + multi browser approach">
+      <change afterPath="$PROJECT_DIR$/testrunner/testng_crossbrowser.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/ReadXLSdata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/ReadXLSdata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testclases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testclases/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testclases/ProductListPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testclases/ProductListPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testrunner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/testng_all.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testrunner/testng_all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/testng_all.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +71,17 @@
       <recent name="D:\JavaProjects\AutomationFrameworkPOM\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Java/TestProjects/AF2/testrunner/testng_smoke.xml">
+  <component name="RunManager" selected="TestNG.D:/Java/TestProjects/AF2/testrunner/testng_crossbrowser.xml">
+    <configuration name="D:/Java/TestProjects/AF2/testrunner/testng_crossbrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AF2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testrunner/testng_crossbrowser.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/Java/TestProjects/AF2/testrunner/testng_regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AF2" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testrunner/testng_regression.xml" />
@@ -90,16 +95,6 @@
     <configuration name="D:/Java/TestProjects/AF2/testrunner/testng_smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AF2" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testrunner/testng_smoke.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/Java/TestProjects/AF2/testrunner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AF2" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testrunner/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -144,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Java/TestProjects/AF2/testrunner/testng_crossbrowser.xml" />
         <item itemvalue="TestNG.D:/Java/TestProjects/AF2/testrunner/testng_smoke.xml" />
         <item itemvalue="TestNG.D:/Java/TestProjects/AF2/testrunner/testng_regression.xml" />
         <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.LoginPageTest.loginTest" />
-        <item itemvalue="TestNG.D:/Java/TestProjects/AF2/testrunner/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661457786412</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rewrote from PF to POM &#10;Finished with testng xml set up + multi browser approach">
+      <created>1661544466739</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661544466739</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +242,7 @@
     <MESSAGE value="rewrote from PF to POM &#10;The Log4j2 set up (done) now need try to implement it" />
     <MESSAGE value="rewrote from PF to POM &#10;The Log4j2 find out 30% how to work with it" />
     <MESSAGE value="rewrote from PF to POM &#10;Finished with xlsx data reader" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewrote from PF to POM &#10;Finished with xlsx data reader" />
+    <MESSAGE value="rewrote from PF to POM &#10;Finished with testng xml set up + multi browser approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewrote from PF to POM &#10;Finished with testng xml set up + multi browser approach" />
   </component>
 </project>
