@@ -17,9 +17,10 @@ public class LoginPageTest extends BaseClass {
 
 
     //Browser start and stop and parameter to read browser from the xml file
+    //Optional here is used to lunch tests separate from test class not from testng.xml
     @Parameters("browser")
     @BeforeMethod(groups = {"Smoke","Regression"})
-    public void setup(String browser)
+    public void setup(@Optional("chrome") String browser)
     {
         lauchBrowser(browser);
     }

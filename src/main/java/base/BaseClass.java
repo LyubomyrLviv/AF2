@@ -62,8 +62,9 @@ public class BaseClass {
             //Changes for threads
             driver.set(new FirefoxDriver());
         }
-        getDriver().manage().window().maximize();
-        getDriver().get(prop.getProperty("url"));
+
+            getDriver().manage().window().maximize();
+            getDriver().get(prop.getProperty("url"));
 
     }
 
