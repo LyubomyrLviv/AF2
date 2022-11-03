@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7008de8a-fb3b-4797-90b9-b8c956d8637c" name="Changes" comment="rewrote from PF to POM &#10;Added crossbrowser test execution and devided xml by test types )smoke, regression)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ExReports.java" afterDir="false" />
+    <list default="true" id="7008de8a-fb3b-4797-90b9-b8c956d8637c" name="Changes" comment="rewrote from PF to POM &#10;Start working (setting up) Extent Report + find out hot to work with testng @Optional tag">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testclases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testclases/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testrunner/testng_crossbrowser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/testng_crossbrowser.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Subversion&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -235,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661631887602</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="rewrote from PF to POM &#10;Start working (setting up) Extent Report + find out hot to work with testng @Optional tag">
+      <created>1661844158397</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661844158397</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +263,11 @@
     <MESSAGE value="rewrote from PF to POM &#10;Finished with xlsx data reader" />
     <MESSAGE value="rewrote from PF to POM &#10;Finished with testng xml set up + multi browser approach" />
     <MESSAGE value="rewrote from PF to POM &#10;Added crossbrowser test execution and devided xml by test types )smoke, regression)" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewrote from PF to POM &#10;Added crossbrowser test execution and devided xml by test types )smoke, regression)" />
+    <MESSAGE value="rewrote from PF to POM &#10;Start working (setting up) Extent Report + find out hot to work with testng @Optional tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewrote from PF to POM &#10;Start working (setting up) Extent Report + find out hot to work with testng @Optional tag" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
